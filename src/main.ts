@@ -96,7 +96,6 @@ export const calcTotal: CalcTotalFn = (items, coupon) => {
 // 目標：理解泛型定義與應用。
 import axios from 'axios';
 import type { AxiosResponse } from 'axios';
-import { log } from 'console';
 export type PlantDTO = {
   id: number;
   title: string;
